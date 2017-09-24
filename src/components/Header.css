@@ -1,0 +1,9 @@
+.header {
+  position: relative;
+}
+
+.pure-menu-heading.header__login {
+  position: absolute;
+  right: .1em;
+  top: .5em;
+}

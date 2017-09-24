@@ -3,25 +3,119 @@
 	{
 		"selected_items":
 		[
+			[
+				"Pho",
+				"PhotoArticle"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"root",
+				"rootEl"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "package.json",
+			"contents": "Common problems when implementing Agile\n\n* Training your employees\n * What is the strategy for training employees?\n * Who is responsible for training?\n * What should I do if an employee's skills do not match expectations?\n * What should I do if an employee's actions do not match expectations?\n\n\n* Training \n\n\n",
 			"settings":
 			{
-				"buffer_size": 342,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"buffer_size": 310,
+				"line_ending": "Windows",
+				"name": "Common problems when implementing Agile"
 			}
 		},
 		{
 			"file": "src/App.js",
 			"settings":
 			{
-				"buffer_size": 496,
+				"buffer_size": 6221,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/PhotoArticle.js",
+			"settings":
+			{
+				"buffer_size": 319,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nJsPrettier\n----------\n\n  ## 1.15.0\n  \n  Release Date: 2017-09-05\n  \n  - Added support for setting a custom Prettier config path\n    (via`additional_cli_args` setting), or disabling Prettier config discovery all\n    together; using the `additional_cli_args` setting.\n  \n    See the docs for more details and config examples:\n    https://github.com/jonlabelle/SublimeJsPrettier#prettier-configuration-files\n\n  ## 1.14.0\n  \n  Release Date: 2017-09-02\n  \n  - Prettier configuration files are now automatically resolved via the\n    `prettier --find-config-path <target_file_to_format>` command.\n    Requires prettier v1.6+.\n\n  ## 1.13.0\n  \n  Release Date: 2017-09-01\n  \n  - Add support for reading configuration options from Prettier configuration\n    files (e.g.: `.prettierrc` files). Requires prettier v1.6+.\n",
+			"settings":
+			{
+				"buffer_size": 858,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "html,\nbutton,\ninput,\nselect,\ntextarea,\n.pure-g [class *= \"pure-u\"] {\n  font-family: Georgia, Times, \"Times New Roman\", serif;\n}\n\nbody {\n  color: #666;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  color: #111;\n}\n\n.l-box {\n  padding: 2em;\n}\n\n.header .pure-menu {\n  margin-top: 1em;\n  margin-bottom: 1em;\n  border-top: 1px solid #000;\n  border-bottom: 1px solid #000;\n  border-radius: 0;\n}\n\n.pure-menu-link {\n  padding: 1em .7em;\n}\n\n.photo-box {\n  overflow: hidden;\n  position: relative;\n  max-height: 350px;\n  text-align: center;\n}\n\n.photo-box img {\n  max-width: 100%;\n  height: auto;\n  min-height: 250px;\n}\n\n.photo-box-thin {\n  height: 120px;\n}\n\n.photo-box aside {\n  position: absolute;\n  bottom: 0;\n  right: 0;\n  padding: 1em 0.5em;\n  color: white;\n  width: 100%;\n  font-size: 80%;\n  text-align: right;\n  background: linear-gradient(\n    to bottom,\n    rgba(16, 27, 30, 0) 0%,\n    rgba(12, 2, 2, 1) 90%\n  ); /* W3C */\n}\n\n.photo-box aside span {\n  color: #aaa;\n}\n\n.photo-box aside span a {\n  color: #ccc;\n  text-decoration: none;\n}\n\n.text-box {\n  background: rgb(49, 49, 49); /* bluish grey */\n  color: rgb(255, 190, 94); /* steel blue */\n}\n\n.text-box-head {\n  color: #fff;\n  padding-bottom: 0.2em;\n  font-weight: 400;\n  text-transform: uppercase;\n  letter-spacing: 0.05em;\n  font-size: 24px;\n}\n\n.text-box-subhead {\n  font-weight: normal;\n  letter-spacing: 0.1em;\n  text-transform: uppercase;\n}\n\n.text-box-subhead {\n  padding: 0;\n  list-style: none;\n}\n\n.text-box-subhead li {\n  border-top: 1px solid rgb(255, 190, 94);\n  padding: .5em 0;\n}\n\na {\n  color: inherit;\n  text-decoration: none;\n}\n\n.form-box {\n  text-align: center;\n  font-size: 120%;\n  border-bottom: 1px solid #eee;\n}\n\n.form-box .pure-button {\n  background-color: #61b842;\n  color: white;\n  font-weight: 400;\n  text-transform: uppercase;\n  letter-spacing: 0.05em;\n  border-radius: .2rem;\n  margin: 0.3em 0.2em;\n}\n\n.pure-form input[type] {\n  margin: 0.3em 0.2em;\n  text-align: center;\n}\n\n.footer {\n  background: #111;\n  color: #666;\n  text-align: center;\n  padding: 1em;\n  font-size: 80%;\n}\n\n@media (min-width: 30em) {\n  .photo-box {\n    text-align: left;\n  }\n\n  .photo-box-thin {\n    height: 250px;\n  }\n}\n",
+			"file": "src/index.css",
+			"file_size": 2149,
+			"file_write_time": 131501523647038803,
+			"settings":
+			{
+				"buffer_size": 2150,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/Header.js",
+			"settings":
+			{
+				"buffer_size": 862,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/Header.css",
+			"settings":
+			{
+				"buffer_size": 122,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/Footer.js",
+			"settings":
+			{
+				"buffer_size": 251,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/index.js",
+			"settings":
+			{
+				"buffer_size": 628,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/Travel/Travel.js",
+			"settings":
+			{
+				"buffer_size": 277,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -37,17 +131,18 @@
 			"file": "config.sublime-project",
 			"settings":
 			{
-				"buffer_size": 112,
+				"buffer_size": 114,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": ".gitignore",
+			"file": "/C/Users/nikol/.bashrc",
 			"settings":
 			{
-				"buffer_size": 285,
-				"line_ending": "Unix"
+				"buffer_size": 841,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -74,10 +169,34 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 247.0,
-		"last_filter": "install ",
+		"height": 588.0,
+		"last_filter": "lin",
 		"selected_items":
 		[
+			[
+				"lin",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"err",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"next",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"form",
+				"JsPrettier: Format Code"
+			],
 			[
 				"install ",
 				"Package Control: Install Package"
@@ -87,11 +206,11 @@
 				"Install Package Control"
 			]
 		],
-		"width": 648.0
+		"width": 624.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 180.0,
 		"history":
 		[
 		]
@@ -107,21 +226,37 @@
 	},
 	"expanded_folders":
 	[
-		"/C/src/newzr"
+		"/C/src/newzr",
+		"/C/src/newzr/public",
+		"/C/src/newzr/src",
+		"/C/src/newzr/src/components"
 	],
 	"file_history":
 	[
+		"/C/src/newzr/src/App.css",
+		"/C/src/newzr/public/index.html",
+		"/C/src/newzr/package.json",
+		"/C/src/newzr/src/components/Header.js",
+		"/C/src/newzr/src/components/Travel/index.js",
+		"/C/src/newzr/build/static/css/main.cacbacc7.css",
+		"/C/src/newzr/src/index.js",
+		"/C/src/newzr/.env",
+		"/C/src/newzr/node_modules/.bin/webpack-dev-server",
+		"/C/src/newzr/node_modules/.bin/react-scripts.cmd",
+		"/C/src/newzr/node_modules/.bin/react-scripts",
+		"/C/Users/nikol/AppData/Roaming/npm/node_modules/create-react-app/createReactApp.js",
 		"/C/Users/nikol/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 50.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 138.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -129,6 +264,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"div",
+			"li",
+			" pure-u-lg-1-3",
+			"pure-u-lg-1-3",
+			"pure-u-lg-1-12",
+			"Header",
+			"developer",
+			"developers",
+			">",
+			"class",
+			"react-scripts.js"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -137,7 +283,7 @@
 		"replace_history":
 		[
 		],
-		"reverse": true,
+		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -146,31 +292,30 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 342,
+						"buffer_size": 310,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								183,
-								183
+								294,
+								294
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Babel/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"auto_name": "Common problems when implementing Agile",
+							"default_dir": "C:\\src\\newzr",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -185,15 +330,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 496,
+						"buffer_size": 6221,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								468,
-								468
+								3787,
+								3787
 							]
 						],
 						"settings":
@@ -203,6 +348,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 792.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/components/PhotoArticle.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								135
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -210,7 +384,210 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								716,
+								716
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"default_dir": "C:\\src\\newzr",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/index.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1858,
+								1858
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2244.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/components/Header.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								838,
+								838
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/components/Header.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								9
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/components/Footer.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								251,
+								251
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								94
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/components/Travel/Travel.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								192,
+								192
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
 					"file": ".eslintrc",
 					"semi_transient": false,
 					"settings":
@@ -235,24 +612,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 11,
 					"file": "config.sublime-project",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 112,
+						"buffer_size": 114,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								112,
-								112
+								37,
+								37
 							]
 						],
 						"settings":
@@ -263,39 +640,41 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": ".gitignore",
-					"semi_transient": true,
+					"buffer": 12,
+					"file": "/C/Users/nikol/.bashrc",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 285,
+						"buffer_size": 841,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								125,
-								117
+								837,
+								837
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 13,
 					"semi_transient": false,
 					"settings":
 					{
@@ -319,11 +698,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 14,
 					"file": "src/test.jsx",
 					"semi_transient": false,
 					"settings":
@@ -350,7 +729,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 13,
 					"type": "text"
 				}
 			]
@@ -358,7 +737,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -404,6 +783,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"packa",
+				"package.json"
+			]
 		],
 		"width": 0.0
 	},
